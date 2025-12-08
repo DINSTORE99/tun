@@ -1,5 +1,4 @@
 const data = {
-  
   // ===========================
   //  XL
   // ===========================
@@ -93,36 +92,39 @@ const data = {
   // ===========================
   "AXIS": {
     bugs: {
-      "EDUKASI": {
+           "EDUKASI": {
         payload: [
-          "GET http://v16.tiktokcdn.com/ HTTP/1.1\nHost: v16.tiktokcdn.com",
-          "CONNECT tiktok.com:443 HTTP/1.1\nHost: tiktok.com"
+          "GET / HTTP/1.1[crlf]Host: edu.ruangguru.com[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/ 1[crlf][crlf]",
+          "GET / HTTP/1.1[crlf]Host: edu.ruangguru.com[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/ 69[crlf][crlf]"
         ],
         proxy: [
-          "172.67.71.2:443",
-          "104.21.45.6:443"
+          "104.17.70.206:80",
+          "ablink.alerts.udemy.com",
+          "104.17.3.81:80",
+          "104.22.4.240:80"
         ]
       },
       
       "CONFERENCE": {
         payload: [
-          "GET / HTTP/1.1\nHost: opok.axis.com",
-          "CONNECT axis-opok.com:443 HTTP/1.1\nHost: axis-opok.com"
+          "GET / HTTP/1.1[crlf]Host: devsupport.zoom.us[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/SweaterPink 200 OK[crlf][crlf]",
+          "PATCH /ssh-ws HTTP/1.1[crlf]Host: [host][crlf]Host: beta.zoom.us[crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]User-Agent: @DINSTORE [ua][crlf][crlf]"
         ],
         proxy: [
-          "104.17.33.9:443",
-          "172.67.90.4:443"
+          "zoomcares.zoom.us:80",
+          "cdn-cf.zoom.us:80",
+          "support.zoom.us:80"
         ]
       },
       
       "GAME": {
         payload: [
-          "GET http://v16.tiktokcdn.com/ HTTP/1.1\nHost: v16.tiktokcdn.com",
-          "CONNECT tiktok.com:443 HTTP/1.1\nHost: tiktok.com"
+          "GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+          "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]"
         ],
         proxy: [
-          "172.67.71.2:443",
-          "104.21.45.6:443"
+          "dev.appsflyer.com",
+          "web.poe.garena.com:80"
         ]
       },
       
@@ -139,23 +141,21 @@ const data = {
       
       "MUSIK": {
         payload: [
-          "GET http://v16.tiktokcdn.com/ HTTP/1.1\nHost: v16.tiktokcdn.com",
-          "CONNECT tiktok.com:443 HTTP/1.1\nHost: tiktok.com"
+          "PATCH / HTTP/1.1[crlf]Host: [host][crlf]Host: zendesk1.spotify.com[crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf][crlf]",
+          "GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]"
         ],
         proxy: [
-          "172.67.71.2:443",
-          "104.21.45.6:443"
+          "investors.spotify.com:80",
+          "investor.fb.com"
         ]
       },
       
       "SPOTIFY": {
         payload: [
-          "GET http://v16.tiktokcdn.com/ HTTP/1.1\nHost: v16.tiktokcdn.com",
-          "CONNECT tiktok.com:443 HTTP/1.1\nHost: tiktok.com"
+          "HEAD /cdn-cgi/trace HTTP/1.1[crlf]Host: investors.spotify.com[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/ 200[crlf][crlf]"
         ],
         proxy: [
-          "172.67.71.2:443",
-          "104.21.45.6:443"
+          "162.159.130.11"
         ]
       }
     }
@@ -168,23 +168,21 @@ const data = {
     bugs: {
       "GAMEMAX": {
         payload: [
-          "GET http://v16.tiktokcdn.com/ HTTP/1.1\nHost: v16.tiktokcdn.com",
-          "CONNECT tiktok.com:443 HTTP/1.1\nHost: tiktok.com"
+          "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: cf-vod.nimo.tv[crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]"
         ],
         proxy: [
-          "172.67.71.2:443",
-          "104.21.45.6:443"
+          "cf-vod.nimo.tv:80"
         ]
       },
       
       "ILMUPEDIA": {
         payload: [
-          "GET / HTTP/1.1\nHost: opok.axis.com",
-          "CONNECT axis-opok.com:443 HTTP/1.1\nHost: axis-opok.com"
+          "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: beta.zoom.us[crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]Content-Lenght: LUKI STORE[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+          "CONNECT /cdn-cgi/trace HTTP/1.1[crlf]Host: ruangguru.com[crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: @DINSTOREVpn [ua][crlf]Upgrade: websocket[crlf][crlf]"
         ],
         proxy: [
-          "104.17.33.9:443",
-          "172.67.90.4:443"
+          "ruangguru.com:443",
+          "v2ray 104.20.28.42"
         ]
       }
     }
@@ -197,45 +195,38 @@ const data = {
     bugs: {
       "APPS FUN 12GB": {
         payload: [
-          "GET http://free.indosat.com/ HTTP/1.1\nHost: free.indosat.com",
-          "CONNECT free.indosat.com:443 HTTP/1.1"
+          "PACTH / HTTP/1.1[crlf]Host: [host][crlf]Host: blog.webex.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]"
         ],
         proxy: [
-          "104.21.88.3:443",
-          "104.21.99.7:443"
+          "141.193.213.20:80",
+          "creativeservices.netflix.com"
         ]
       },
       
-      "APPS GAME": {
+      "APPS GAME 12GB": {
         payload: [
-          "GET http://free.indosat.com/ HTTP/1.1\nHost: free.indosat.com",
-          "CONNECT free.indosat.com:443 HTTP/1.1"
+          "POSTT WSS://poki.com/ HTTP/1.1[crlf]Host: www.pubgmobile.com[crlf]User-Agent: @XRESXCONFIG [ua][crlf][crlf][split][cr]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]"
         ],
         proxy: [
-          "104.21.88.3:443",
-          "104.21.99.7:443"
+          "104.18.62.229:80"
         ]
       },
       
-      "APPS EDUKASI": {
+      "APPS EDUKASI 12gb": {
         payload: [
-          "GET http://free.indosat.com/ HTTP/1.1\nHost: free.indosat.com",
-          "CONNECT free.indosat.com:443 HTTP/1.1"
+          "PACTH / HTTP/1.1[crlf]Host: [host][crlf]Host: api.webex.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]"
         ],
         proxy: [
-          "104.21.88.3:443",
-          "104.21.99.7:443"
+          "141.193.213.20:80"
         ]
       },
       
       "OPOK": {
         payload: [
-          "GET http://free.indosat.com/ HTTP/1.1\nHost: free.indosat.com",
-          "CONNECT free.indosat.com:443 HTTP/1.1"
+          "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: h.facebook.com[crlf]User-Agent: [ua][crlf]Referer: http://covid19.go.id[crlf][crlf]VERSION-CONTROL ws://[host] HTTP/1.1[crlf]Host: covid19.go.id[crlf]Upgrade: websocket[crlf][crlf]\n"
         ],
         proxy: [
-          "104.21.88.3:443",
-          "104.21.99.7:443"
+          "Covid19.go.id:80"
         ]
       }
     }
@@ -246,25 +237,22 @@ const data = {
   // ===========================
   "byu": {
     bugs: {
-      "Tiktok": {
+      "GGWP": {
         payload: [
-          "GET http://v16.tiktokcdn.com/ HTTP/1.1\nHost: v16.tiktokcdn.com",
-          "CONNECT tiktok.com:443 HTTP/1.1\nHost: tiktok.com"
+          "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: 104.19.143.108[crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]User-Agent: @DINSTORE [ua][crlf]Upgrade: websocket[crlf][crlf]"
         ],
         proxy: [
-          "172.67.71.2:443",
-          "104.21.45.6:443"
+          "104.19.143.108",
+          "104.19.143.108:80"
         ]
       },
       
       "Opok": {
         payload: [
-          "GET / HTTP/1.1\nHost: opok.axis.com",
-          "CONNECT axis-opok.com:443 HTTP/1.1\nHost: axis-opok.com"
+          "Payload  : GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]"
         ],
         proxy: [
-          "104.17.33.9:443",
-          "172.67.90.4:443"
+          "space.byu.id:443 -SNI PKE HOST SSH"
         ]
       }
     }
