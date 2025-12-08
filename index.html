@@ -1,0 +1,107 @@
+DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payload & Proxy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="title">Payload & Proxy</h1>
+
+<div class="box">
+  <select id="operator">
+    <option value="">Pilih Operator</option>
+  </select>
+</div>
+
+<div class="box">
+  <select id="bug">
+    <option value="">Pilih Bug </option>
+  </select>
+</div>
+
+<div class="box">
+  <select id="payloadList">
+    <option value="">Pilih Payload</option>
+  </select>
+</div>
+
+<div class="box">
+  <select id="proxyList">
+    <option value="">Pilih Proxy</option>
+  </select>
+</div>
+
+<div class="output-box">
+  <textarea id="payloadOutput" readonly>Payload akan tampil di sini</textarea>
+  <button onclick="copyPayload()">Salin Payload</button>
+</div>
+
+<div class="output-box">
+  <textarea id="proxyOutput" readonly>Proxy akan tampil di sini</textarea>
+  <button onclick="copyProxy()">Salin Proxy</button>
+</div>
+
+<!-- ==============================
+     BAGIAN TUTORIAL
+============================== -->
+<section class="tutorial">
+  <h2>Tutorial Penggunaan</h2>
+  <p>Ikuti langkah‑langkah berikut untuk menggunakan generator payload:</p>
+
+  <ol>
+    <li>Pilih operator yang kamu gunakan.</li>
+    <li>Pilih bug/kategori sesuai kebutuhan.</li>
+    <li>Pilih payload yang ingin digunakan.</li>
+    <li>Pilih proxy untuk melengkapi konfigurasi.</li>
+    <li>Tekan tombol <b>Salin Payload</b> atau <b>Salin Proxy</b>.</li>
+    <li>Tempelkan ke aplikasi injector / HTTP Custom/HTTP Injector.</li>
+    <li>Jika proxy tidak konek carilah dengan yg cocok di tkp kalian</li>
+  </ol>
+
+  <h3>Video Tutorial</h3>
+  <ul>
+    <li><a href="https://link-vidio1.com" target="_blank">Video 1</a></li>
+    <li><a href="https://link-vidio2.com" target="_blank">Video 2</a></li>
+  </ul>
+</section>
+
+<!-- ==============================
+     BAGIAN BELI SSH OTOMATIS
+============================== -->
+<section class="shop">
+  <h2>Beli SSH Premium</h2>
+  <p>Dapatkan SSH Premium dengan harga lebih murah bila membeli lewat web otomatis!</p>
+
+  <div class="shop-box">
+    <p><b>✨ Beli via Website (Otomatis):</b> Proses 24 jam nonstop, harga lebih murah & instant.</p>
+    <a href="https://order.vpn.dinstore.web.id" class="btn-shop" target="_blank">Beli SSH Otomatis</a>
+  </div>
+
+<div class="shop-box">
+  <p><b>🛒 Beli via Admin:</b> Cocok buat pemula yang butuh bantuan. Respon sesuai jam online admin.</p>
+  <a href="https://wa.me/6287776581216" class="btn-admin" target="_blank">Hubungi Admin</a>
+  
+  <!-- Tambahan Grup & Saluran Neon -->
+  <div class="group-channel" style="margin-top:80px;">
+    <p><b>📌 Grup & Saluran:</b></p>
+    <a href="https://chat.whatsapp.com/GfTvIOGUjwB3Awvqxy8LfX?mode=hqrt3" class="btn-neon" target="_blank">Grup 1</a>
+    <a href="https://chat.whatsapp.com/FaxKFqHpIVHI5z65elRLur?mode=hqrt3" class="btn-neon" target="_blank">Grup 2</a>
+    <a href="https://whatsapp.com/channel/0029Vb0o48PKgsNu5DqoA33o" class="btn-neon" target="_blank">Testimoni</a>
+    <a href="https://whatsapp.com/channel/0029Vaz4J9rHLHQaCsN2NN0O" class="btn-neon" target="_blank">Saluran </a>
+  </div>
+</div>
+<!-- ==============================
+     FOOTER
+============================== -->
+<footer class="footer">
+  <p>© 2025 Dibuat oleh <b>DIN STORE</b>. All rights reserved.</p>
+</footer>
+</section>
+
+<script src="app.js"></script>
+
+</body>
+</html>
