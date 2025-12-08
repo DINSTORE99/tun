@@ -1,6 +1,6 @@
-/* ===============================
+/* =====================================
    GOOGLE FONT & RESET
-=============================== */
+===================================== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
@@ -11,72 +11,95 @@
 }
 
 body {
-    background: #000;
-    color: #fff;
+    background: #04040a;
+    color: #e8f8ff;
     line-height: 1.6;
     padding: 20px;
+
+    /* background cyber gradient */
+    background: radial-gradient(circle at top, #0c1030 0%, #02030a 70%);
 }
-/* ===============================
+
+/* =====================================
+   GLOBAL CYBER EFFECTS
+===================================== */
+.neon-border {
+    border: 1px solid #00eaff;
+    box-shadow: 0 0 10px #00eaff, 0 0 25px #00eaff;
+}
+
+.neon-text {
+    text-shadow: 0 0 8px #00eaff, 0 0 18px #00eaff;
+}
+
+/* =====================================
    FAQ
-=============================== */
+===================================== */
 .faq {
-    background: #111;
+    background: rgb(10, 15, 35);
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+    border: 1px solid #0af2ff88;
+    box-shadow:
+        0 0 12px #00eaff55,
+        inset 0 0 20px #00eaff22;
     margin-bottom: 25px;
 }
 
 .faq h2 {
-    color: #00faff;
+    color: #00eaff;
     margin-bottom: 15px;
     text-align: center;
+    text-shadow: 0 0 12px #00eaff;
 }
 
 .faq-item {
     margin-bottom: 12px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #2a2f52;
 }
 
 .faq-question {
     width: 100%;
-    background: #222;
+    background: #0e1230;
     color: #fff;
     padding: 12px 15px;
-    border: none;
+    border: 1px solid #00c8ff55;
     text-align: left;
     cursor: pointer;
     font-size: 1rem;
     border-radius: 8px;
     transition: 0.3s;
+    box-shadow: inset 0 0 10px #00eaff22;
 }
 
 .faq-question:hover {
-    background: #00faff;
+    background: #00eaff;
     color: black;
+    box-shadow: 0 0 20px #00eaff;
 }
 
 .faq-answer {
     display: none;
     padding: 10px 15px;
-    color: #ccc;
+    color: #cbd6ff;
     font-size: 0.95rem;
     line-height: 1.4;
 }
-/* ===============================
+
+/* =====================================
    TITLE
-=============================== */
+===================================== */
 h1.title {
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     margin-bottom: 25px;
-    color: #00faff;
-    text-shadow: 0 0 10px #00faff, 0 0 20px #00faff;
+    color: #00eaff;
+    text-shadow: 0 0 12px #00eaff, 0 0 25px #00eaff;
 }
 
-/* ===============================
+/* =====================================
    BOX & SELECT
-=============================== */
+===================================== */
 .box {
     margin-bottom: 15px;
     text-align: center;
@@ -87,15 +110,16 @@ select {
     max-width: 400px;
     padding: 15px;
     border-radius: 10px;
-    border: none;
-    background: #111;
-    color: white;
+    border: 1px solid #00eaff55;
+    background: #0b0f29;
+    color: #dff7ff;
     font-size: 16px;
+    box-shadow: inset 0 0 12px #00eaff33;
 }
 
-/* ===============================
+/* =====================================
    OUTPUT BOX
-=============================== */
+===================================== */
 .output-box {
     margin-bottom: 20px;
     text-align: center;
@@ -107,9 +131,10 @@ textarea {
     height: 90px;
     border-radius: 10px;
     padding: 10px;
-    background: #111;
-    color: white;
-    border: none;
+    background: #0b0f29;
+    color: #e8faff;
+    border: 1px solid #00eaff55;
+    box-shadow: inset 0 0 12px #00eaff33;
     margin-bottom: 10px;
     resize: none;
     font-size: 0.95rem;
@@ -118,7 +143,7 @@ textarea {
 button {
     width: 100%;
     padding: 15px;
-    background: linear-gradient(90deg, #00faff, #22c3ee);
+    background: linear-gradient(90deg, #00eaff, #7b2bff);
     border: none;
     color: black;
     font-weight: bold;
@@ -126,31 +151,42 @@ button {
     cursor: pointer;
     font-size: 17px;
     transition: 0.3s;
+    box-shadow:
+        0 0 12px #00eaff,
+        0 0 25px #7b2bff;
 }
 
 button:hover {
-    opacity: 0.9;
+    transform: translateY(-2px);
+    box-shadow:
+        0 0 18px #00eaff,
+        0 0 35px #7b2bff;
 }
 
-/* ===============================
+/* =====================================
    TUTORIAL
-=============================== */
+===================================== */
 .tutorial {
-    background: #111;
+    background: #0b0f29;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+    border: 1px solid #00eaff55;
+    box-shadow:
+        0 0 12px #00eaff55,
+        inset 0 0 20px #00eaff22;
     margin-bottom: 25px;
 }
 
 .tutorial h2 {
-    color: #00faff;
+    color: #00eaff;
     margin-bottom: 10px;
+    text-shadow: 0 0 10px #00eaff;
 }
 
 .tutorial h3 {
     margin-top: 15px;
-    color: #22c55e;
+    color: #34ffb4;
+    text-shadow: 0 0 12px #34ffb4;
 }
 
 .tutorial ol {
@@ -163,167 +199,136 @@ button:hover {
 }
 
 .tutorial ul li a {
-    color: #4ade80;
+    color: #39ff14;
     text-decoration: none;
     font-weight: 500;
+    text-shadow: 0 0 10px #39ff1488;
 }
 
 .tutorial ul li a:hover {
     text-decoration: underline;
 }
 
-/* ===============================
+/* =====================================
    SHOP / BELI SSH
-=============================== */
+===================================== */
 .shop {
-    background: #111;
+    background: #0b0f29;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+    border: 1px solid #7b2bff66;
+    box-shadow: 0 0 15px #7b2bff55, inset 0 0 20px #7b2bff22;
     margin-bottom: 20px;
 }
 
 .shop h2 {
-    color: #f87171;
+    color: #ff4f9f;
     margin-bottom: 15px;
+    text-shadow: 0 0 10px #ff4f9f;
 }
 
 .shop-box {
-    background: linear-gradient(135deg, #222, #333);
+    background: linear-gradient(135deg, #111633, #1d2250);
     border-radius: 12px;
     padding: 15px;
     margin-bottom: 15px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+    border: 1px solid #00eaff55;
+    box-shadow: 0 0 20px #00eaff22;
 }
 
 .shop-box p {
     margin-bottom: 10px;
     font-weight: 500;
+    color: #e8faff;
 }
 
+/* tombol shop */
 .btn-shop, .btn-admin {
     display: inline-block;
     padding: 10px 18px;
     border-radius: 10px;
     text-decoration: none;
-    color: #fff;
     font-weight: 600;
     transition: 0.3s;
+    box-shadow: 0 0 12px #00eaff55;
 }
 
 .btn-shop {
-    background: linear-gradient(90deg, #4ade80, #22d3ee);
+    color: #000;
+    background: linear-gradient(90deg, #00ffa6, #00eaff);
 }
 
 .btn-shop:hover {
-    opacity: 0.9;
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px #00ffa6, 0 0 30px #00eaff;
 }
 
 .btn-admin {
-    background: linear-gradient(90deg, #f87171, #f43f5e);
+    background: linear-gradient(90deg, #ff3b85, #7b2bff);
+    color: white;
 }
 
 .btn-admin:hover {
-    opacity: 0.9;
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px #ff3b85, 0 0 30px #7b2bff;
 }
 
-/* ===============================
+/* =====================================
+   GROUP CHANNEL
+===================================== */
+.group-channel {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.group-channel a {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #39ff14, #00eaff);
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 0 15px #00eaff55;
+}
+
+.group-channel a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px #00eaff;
+}
+
+/* =====================================
+   FOOTER FLOATING
+===================================== */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 12px 10px;
+    background: rgba(10, 15, 35, 0.75);
+    color: #d7faff;
+    font-size: 0.95rem;
+    backdrop-filter: blur(5px);
+    border-top: 1px solid #00eaff44;
+    box-shadow: 0 0 10px #00eaff55;
+    z-index: 999;
+}
+
+.footer b {
+    color: #00eaff;
+}
+
+/* =====================================
    RESPONSIVE
-=============================== */
+===================================== */
 @media (max-width: 600px) {
     select, textarea {
         width: 100%;
     }
 }
-/* ===============================
-   FAQ
-=============================== */
-.faq {
-    background: #111;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.7);
-    margin-bottom: 25px;
-}
-
-.faq h2 {
-    color: #00faff;
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-.faq-item {
-    margin-bottom: 12px;
-    border-bottom: 1px solid #333;
-}
-
-.faq-question {
-    width: 100%;
-    background: #222;
-    color: #fff;
-    padding: 12px 15px;
-    border: none;
-    text-align: left;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 8px;
-    transition: 0.3s;
-}
-
-.faq-question:hover {
-    background: #00faff;
-    color: black;
-}
-
-.faq-answer {
-    display: none;
-    padding: 10px 15px;
-    color: #ccc;
-    font-size: 0.95rem;
-    line-height: 1.4;
-}
-
-.group-channel {
-    margin-top: 15px;
-    display: flex;
-    flex-wrap: wrap; /* biar tetap rapi di layar kecil */
-    gap: 10px;       /* jarak antar tombol */
-}
-
-.group-channel a {
-    flex: 1 1 auto;       /* tombol menyesuaikan ukuran */
-    text-align: center;
-    padding: 10px 12px;
-    border-radius: 8px;
-    background: linear-gradient(90deg,#39FA15, #0B47F5);
-    color: black;
-    font-weight: 500;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.group-channel a:hover {
-    opacity: 0.9;
-    transform: translateY(-2px);
-}
-/* ===============================
-   FOOTER MENGAMBANG TRANSPARAN
-=============================== */
-.footer {
-    position: fixed;      /* selalu di bawah layar */
-    bottom: 0;            /* posisi bawah */
-    left: 0;
-    width: 100%;          /* full lebar layar */
-    text-align: center;
-    padding: 12px 10px;
-    background: rgba(17, 17, 17, 0.7); /* transparan */
-    color: #fff;
-    font-size: 0.95rem;
-    backdrop-filter: blur(5px); /* efek blur di belakang */
-    border-top: 1px solid rgba(255,255,255,0.2);
-    z-index: 999;
-}
-
-.footer b {
-    color: #00faff;
-  }
