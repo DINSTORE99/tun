@@ -14,9 +14,10 @@ const data = {
           "ablink.alerts.udemy.com",
           "104.17.3.81:80",
           "104.22.4.240:80"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "CONFERENCE": {
         payload: [
           "GET / HTTP/1.1[crlf]Host: devsupport.zoom.us[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/SweaterPink 200 OK[crlf][crlf]",
@@ -26,9 +27,10 @@ const data = {
           "zoomcares.zoom.us:80",
           "cdn-cf.zoom.us:80",
           "support.zoom.us:80"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "UDEMY": {
         payload: [
           "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
@@ -37,9 +39,10 @@ const data = {
         proxy: [
           "www.udemy.com:80",
           "pake yng no satu aja ya"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "VIDI": {
         payload: [
           "GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
@@ -48,9 +51,10 @@ const data = {
         proxy: [
           "104.18.1.196:80",
           "PKE NO 1"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "tiktok": {
         payload: [
           "mode v2/vmmes",
@@ -60,9 +64,10 @@ const data = {
           "api24-normal-alisg.tiktokv.com",
           "api24-normal-useast1a.tiktokv.com",
           "api24-normal.tiktokv.com"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "UTS": {
         payload: [
           "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: ava.game.naver.com[crlf][crlf]BMOVE / [protocol][crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/1.1 200 OK[crlf][crlf]",
@@ -71,9 +76,10 @@ const data = {
         proxy: [
           "ava.game.naver.com sni graph.instagram.com",
           "PKE NO 1"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "IFLIX": {
         payload: [
           "PAKE MODE SSL ONLY",
@@ -82,17 +88,18 @@ const data = {
         proxy: [
           "live.iflix.com",
           "162.159.138.78"
-        ]
+        ],
+        SNI: []
       }
     }
   },
-  
+
   // ===========================
   // AXIS
   // ===========================
   "🟣AXIS": {
     bugs: {
-           "EDUKASI": {
+      "EDUKASI": {
         payload: [
           "GET / HTTP/1.1[crlf]Host: edu.ruangguru.com[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/ 1[crlf][crlf]",
           "GET / HTTP/1.1[crlf]Host: edu.ruangguru.com[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/ 69[crlf][crlf]"
@@ -102,9 +109,10 @@ const data = {
           "ablink.alerts.udemy.com",
           "104.17.3.81:80",
           "104.22.4.240:80"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "CONFERENCE": {
         payload: [
           "GET / HTTP/1.1[crlf]Host: devsupport.zoom.us[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/SweaterPink 200 OK[crlf][crlf]",
@@ -114,9 +122,10 @@ const data = {
           "zoomcares.zoom.us:80",
           "cdn-cf.zoom.us:80",
           "support.zoom.us:80"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "GAME": {
         payload: [
           "GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
@@ -125,9 +134,10 @@ const data = {
         proxy: [
           "dev.appsflyer.com",
           "web.poe.garena.com:80"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "SOSMED": {
         payload: [
           "GET http://v16.tiktokcdn.com/ HTTP/1.1\nHost: v16.tiktokcdn.com",
@@ -136,9 +146,10 @@ const data = {
         proxy: [
           "172.67.71.2:443",
           "104.21.45.6:443"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "MUSIK": {
         payload: [
           "PATCH / HTTP/1.1[crlf]Host: [host][crlf]Host: zendesk1.spotify.com[crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf][crlf]",
@@ -147,20 +158,22 @@ const data = {
         proxy: [
           "investors.spotify.com:80",
           "investor.fb.com"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "SPOTIFY": {
         payload: [
           "HEAD /cdn-cgi/trace HTTP/1.1[crlf]Host: investors.spotify.com[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/ 200[crlf][crlf]"
         ],
         proxy: [
           "162.159.130.11"
-        ]
+        ],
+        SNI: []
       }
     }
   },
-  
+
   // ===========================
   // TELKOMSEL
   // ===========================
@@ -172,9 +185,10 @@ const data = {
         ],
         proxy: [
           "cf-vod.nimo.tv:80"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "ILMUPEDIA": {
         payload: [
           "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: beta.zoom.us[crlf][crlf]GET-RAY / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]Content-Lenght: LUKI STORE[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
@@ -183,11 +197,12 @@ const data = {
         proxy: [
           "ruangguru.com:443",
           "v2ray 104.20.28.42"
-        ]
+        ],
+        SNI: ["PAKE HOST SSH"]
       }
     }
   },
-  
+
   // ===========================
   // INDOSAT
   // ===========================
@@ -200,38 +215,42 @@ const data = {
         proxy: [
           "141.193.213.20:80",
           "creativeservices.netflix.com"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "APPS GAME 12GB": {
         payload: [
           "POSTT WSS://poki.com/ HTTP/1.1[crlf]Host: www.pubgmobile.com[crlf]User-Agent: @XRESXCONFIG [ua][crlf][crlf][split][cr]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]"
         ],
         proxy: [
           "104.18.62.229:80"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "APPS EDUKASI 12gb": {
         payload: [
           "PACTH / HTTP/1.1[crlf]Host: [host][crlf]Host: api.webex.com[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]"
         ],
         proxy: [
           "141.193.213.20:80"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "OPOK": {
         payload: [
           "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: h.facebook.com[crlf]User-Agent: [ua][crlf]Referer: http://covid19.go.id[crlf][crlf]VERSION-CONTROL ws://[host] HTTP/1.1[crlf]Host: covid19.go.id[crlf]Upgrade: websocket[crlf][crlf]\n"
         ],
         proxy: [
           "Covid19.go.id:80"
-        ]
+        ],
+        SNI: []
       }
     }
   },
-  
+
   // ===========================
   // BYU
   // ===========================
@@ -244,29 +263,36 @@ const data = {
         proxy: [
           "104.19.143.108",
           "104.19.143.108:80"
-        ]
+        ],
+        SNI: []
       },
-      
+
       "Opok": {
         payload: [
           "Payload  : GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]"
         ],
         proxy: [
-          "space.byu.id:443 -SNI PKE HOST SSH"
-        ]
+          "space.byu.id:443"
+        ],
+        SNI: ["SNI PKE HOST SSH"]
       }
     }
   }
-  
 };
-//  ELEMENT
-// ===========================
+
+
+
+// =======================================
+//   ELEMENT SESUAI HTML (Sudah Fix)
+// =======================================
 const operatorSelect = document.getElementById("operator");
 const bugSelect = document.getElementById("bug");
 const payloadList = document.getElementById("payloadList");
-const proxyList = document.getElementById("proxyList");  // ← DITAMBAHKAN
+const proxyList = document.getElementById("proxyList");
+const sniList = document.getElementById("SNIList");     // FIX!!
 const payloadOutput = document.getElementById("payloadOutput");
 const proxyOutput = document.getElementById("proxyOutput");
+const SNIOutput = document.getElementById("SNIOutput"); // FIX!!
 
 
 // ===========================
@@ -283,11 +309,14 @@ function loadOperators() {
 //  LOAD BUG SESUAI OPERATOR
 // ===========================
 operatorSelect.addEventListener("change", () => {
-  bugSelect.innerHTML = `<option value="">Pilih Bug / Kategori</option>`;
+  bugSelect.innerHTML = `<option value="">Pilih Bug / Operator</option>`;
   payloadList.innerHTML = `<option value="">Pilih Payload</option>`;
   proxyList.innerHTML = `<option value="">Pilih Proxy</option>`;
+  sniList.innerHTML = `<option value="">Pilih SNI</option>`;
+
   payloadOutput.value = "Payload akan tampil di sini";
   proxyOutput.value = "Proxy akan tampil di sini";
+  SNIOutput.value = "SNI akan tampil di sini";
 
   const op = operatorSelect.value;
   if (!op) return;
@@ -299,26 +328,32 @@ operatorSelect.addEventListener("change", () => {
 
 
 // ===========================
-//  LOAD PAYLOAD & PROXY LIST
+//  LOAD PAYLOAD + PROXY + SNI
 // ===========================
 bugSelect.addEventListener("change", () => {
   payloadList.innerHTML = `<option value="">Pilih Payload</option>`;
   proxyList.innerHTML = `<option value="">Pilih Proxy</option>`;
+  sniList.innerHTML = `<option value="">Pilih SNI</option>`;
+
   payloadOutput.value = "Payload akan tampil di sini";
   proxyOutput.value = "Proxy akan tampil di sini";
+  SNIOutput.value = "SNI akan tampil di sini";
 
   const op = operatorSelect.value;
   const bug = bugSelect.value;
+
   if (!op || !bug) return;
 
-  // isi payload
   data[op].bugs[bug].payload.forEach((p, i) => {
     payloadList.innerHTML += `<option value="${i}">Payload ${i + 1}</option>`;
   });
 
-  // isi proxy
   data[op].bugs[bug].proxy.forEach((px, i) => {
     proxyList.innerHTML += `<option value="${i}">Proxy ${i + 1}</option>`;
+  });
+
+  data[op].bugs[bug].SNI.forEach((s, i) => {
+    sniList.innerHTML += `<option value="${i}">SNI ${i + 1}</option>`;
   });
 });
 
@@ -352,7 +387,21 @@ proxyList.addEventListener("change", () => {
 
 
 // ===========================
-//  COPY
+//  TAMPILKAN SNI (FIX!!)
+// ===========================
+sniList.addEventListener("change", () => {
+  const op = operatorSelect.value;
+  const bug = bugSelect.value;
+  const idx = sniList.value;
+
+  if (idx === "") return;
+
+  SNIOutput.value = data[op].bugs[bug].SNI[idx];
+});
+
+
+// ===========================
+//  COPY FIXED
 // ===========================
 function copyPayload() {
   payloadOutput.select();
@@ -361,6 +410,11 @@ function copyPayload() {
 
 function copyProxy() {
   proxyOutput.select();
+  document.execCommand("copy");
+}
+
+function copySNI() {
+  SNIOutput.select();
   document.execCommand("copy");
 }
 
